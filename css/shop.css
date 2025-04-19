@@ -1,3 +1,7 @@
+section {
+    padding: 2rem 9%;
+}
+
 header {
     position: fixed;
     top: 0;
@@ -56,6 +60,19 @@ header .fa-bars {
     display: none;
 }
 
+.home {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background:url(../assets/home-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.home .content {
+    max-width: 50rem;
+    
+}
 
 
 
@@ -118,3 +135,4 @@ header .fa-bars {
         font-size: 50%;
     }
 }
+
