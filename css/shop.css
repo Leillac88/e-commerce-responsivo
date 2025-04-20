@@ -206,3 +206,9 @@ header .fa-bars {
     color: #555;
     font-size: 1.3rem;
 }
+
+.products .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
