@@ -32,14 +32,14 @@
     }
 
     header #toggler:checked ~ .navbar {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
 
     header .navbar a {
         margin: 1.5rem;
         padding: 1.5rem;
         background: #fff;
-        border: 1rem solid rgba(0, 0, 0, .1);
+        border: .1rem solid rgba(0, 0, 0, .1);
         display: block;
     }
 

@@ -65,7 +65,7 @@ header .navbar a:hover {
 }
 
 header .icons a {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #333;
     margin-left: 1.5rem;
 }
@@ -81,10 +81,10 @@ header #toggler {
 header .fa-bars {
     font-size: 3rem;
     color: #333;
-    border-radius: 5rem;
-    padding: 5rem 1.5rem;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
     cursor: pointer;
-    border: 1rem solid rgba(0, 0, 0, .3);
+    border: .1rem solid rgba(0, 0, 0, .3);
     display: none;
 }
 
